@@ -59,11 +59,13 @@ footer {
     color: yellow;
     padding: 1em 0;
     text-align: center;
-}
-ul img {
+    }
+ main > section > img {
     border-radius: 50%;
-    width: 200px;
+    width: 100px;
   }
+
+
   p {
       color:yellow;
   }
@@ -74,4 +76,52 @@ ul img {
     background-image:url(images/lubo-minar-qRGuuVOzsTc-unsplash.jpg);
     background-size: cover;
   }
+  .nav {
+    height: 75px;
+    width: 100%;
+    background-color: none;
+    position: absolute;
+    font-family: 'Bonheur Royale', cursive;
+    top: 0;
+    
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 34px;
+    color: yellow;
+    padding: 20px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+    padding-top: 10px;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 28px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 25px 25px;
+    text-decoration: none;
+    color: yellow;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+ 
   
