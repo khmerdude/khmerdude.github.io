@@ -100,7 +100,7 @@ export default function Skills() {
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'} mb={16}>
           <Heading fontSize={'3xl'}>Skills & Technologies</Heading>
           <Text color={'gray.600'} fontSize={'xl'}>
-            Specialized in Data Engineering and ETL Solutions
+            Specialized in Software Engineering and ETL Solutions
           </Text>
         </Stack>
 

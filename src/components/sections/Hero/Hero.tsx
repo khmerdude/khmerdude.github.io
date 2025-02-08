@@ -60,7 +60,7 @@ export default function Hero() {
                 bgClip="text"
                 fontWeight="bold"
               >
-                Data Engineer
+                Software Engineer
               </Text>
             </Heading>
             <Text
@@ -70,9 +70,9 @@ export default function Hero() {
               mx="auto"
               mb={8}
             >
-              I'm a passionate data engineer specializing in building scalable ETL pipelines
-              and data infrastructure. With expertise in Apache Spark, Databricks, and cloud
-              technologies, I transform complex data challenges into efficient solutions.
+              I'm a passionate software engineer specializing in building scalable applications
+              and robust systems. With expertise in modern technologies and cloud solutions,
+              I transform complex challenges into efficient, user-friendly applications.
             </Text>
             <Stack
               direction={{ base: 'column', sm: 'row' }}

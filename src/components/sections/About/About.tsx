@@ -76,7 +76,7 @@ export default function About() {
             >
               About Me
             </Text>
-            <Heading color={useColorModeValue('gray.900', 'white')}>Data Engineer</Heading>
+            <Heading color={useColorModeValue('gray.900', 'white')}>Software Engineer</Heading>
             <Text color={useColorModeValue('gray.800', 'gray.300')} fontSize={'lg'}>
               I am a software engineer specializing in data engineering and ETL development.
               With a strong foundation in building scalable data solutions, I focus on
