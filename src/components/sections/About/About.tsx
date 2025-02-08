@@ -6,7 +6,6 @@ import {
   Heading,
   Text,
   Stack,
-  StackDivider,
   Icon,
   useColorModeValue,
   List,

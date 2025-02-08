@@ -36,7 +36,6 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const bg = useColorModeValue('white', 'gray.800')
 
   return (
     <Box 

@@ -1,11 +1,9 @@
-import React from 'react'
 import {
   Box,
   Container,
   Heading,
   Text,
   Stack,
-  Image,
   Link,
   Badge,
   useColorModeValue,
