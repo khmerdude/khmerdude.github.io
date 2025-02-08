@@ -29,19 +29,19 @@ const projects: Project[] = [
   {
     title: 'ETL Data Pipeline Framework',
     description: 'Developed a robust ETL framework using Apache Spark and Python for processing large-scale financial data. Implemented data quality checks, error handling, and monitoring capabilities.',
-    image: 'https://via.placeholder.com/500x300',
+    image: '/images/etl-pipeline.jpg',
     technologies: ['Apache Spark', 'Python', 'AWS', 'Airflow', 'Data Quality'],
   },
   {
     title: 'Data Warehouse Migration',
     description: 'Led the migration of legacy data warehouse to Databricks, implementing new ETL processes and improving query performance through Delta Lake optimization and efficient data modeling.',
-    image: 'https://via.placeholder.com/500x300',
+    image: '/images/data-warehouse.jpg',
     technologies: ['Databricks', 'Delta Lake', 'Python', 'SQL', 'Data Modeling'],
   },
   {
     title: 'Technical Data Quality',
     description: 'Developed an automated data quality framework to validate and monitor data integrity across various data pipelines and sources, ensuring data reliability and consistency.',
-    image: 'https://via.placeholder.com/500x300',
+    image: '/images/data-quality.jpg',
     technologies: ['Great Expectations', 'Python', 'SQL', 'Jenkins', 'Monitoring'],
   }
 ]
@@ -73,26 +73,46 @@ export default function Projects() {
                 overflow={'hidden'}
                 boxShadow={'md'}
               >
-                <Box h={'200px'} overflow={'hidden'} bg="gray.100">
+                <Box h={'200px'} overflow={'hidden'} position="relative">
                   <Box
-                    h="full"
-                    w="full"
+                    bgImage={`url(${project.image})`}
+                    bgSize="cover"
+                    bgPosition="center"
+                    position="absolute"
+                    top={0}
+                    left={0}
+                    right={0}
+                    bottom={0}
+                    filter="brightness(0.9)"
+                    transition="all 0.3s ease"
+                    _groupHover={{ transform: 'scale(1.05)' }}
+                  />
+                  <Box
+                    position="absolute"
+                    top={0}
+                    left={0}
+                    right={0}
+                    bottom={0}
+                    bg="rgba(0,0,0,0.4)"
                     display="flex"
                     alignItems="center"
                     justifyContent="center"
-                    fontSize="xl"
-                    fontWeight="bold"
-                    color="gray.500"
-                    bg={useColorModeValue('gray.50', 'gray.700')}
                   >
-                    {project.title}
+                    <Text
+                      fontSize="xl"
+                      fontWeight="bold"
+                      color="white"
+                      textAlign="center"
+                      px={4}
+                    >
+                      {project.title}
+                    </Text>
                   </Box>
                 </Box>
 
                 <Box p={6}>
                   <Stack spacing={3}>
-                    <Heading fontSize={'xl'}>{project.title}</Heading>
-                    <Text color={'gray.600'} fontSize={'sm'}>
+                    <Text color={useColorModeValue('gray.600', 'gray.300')} fontSize={'sm'}>
                       {project.description}
                     </Text>
                     <Stack direction={'row'} spacing={2} flexWrap={'wrap'}>
