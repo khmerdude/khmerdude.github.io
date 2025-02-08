@@ -41,7 +41,7 @@ const projects: Project[] = [
   {
     title: 'Technical Data Quality',
     description: 'Developed an automated data quality framework to validate and monitor data integrity across various data pipelines and sources, ensuring data reliability and consistency.',
-    image: '/images/data-quality.jpg',
+    image: '/images/technical-docs.jpg',
     technologies: ['Great Expectations', 'Python', 'SQL', 'Jenkins', 'Monitoring'],
   }
 ]
