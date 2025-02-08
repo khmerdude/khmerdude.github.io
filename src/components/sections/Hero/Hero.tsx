@@ -70,9 +70,9 @@ export default function Hero() {
               mx="auto"
               mb={8}
             >
-              I'm a passionate software engineer specializing in building scalable applications
-              and robust systems. With expertise in modern technologies and cloud solutions,
-              I transform complex challenges into efficient, user-friendly applications.
+              I'm a passionate software engineer specializing in building scalable ETL pipelines
+              and data integration solutions. With expertise in Apache Spark, Databricks, and cloud
+              technologies, I transform complex data challenges into efficient, reliable systems.
             </Text>
             <Stack
               direction={{ base: 'column', sm: 'row' }}
