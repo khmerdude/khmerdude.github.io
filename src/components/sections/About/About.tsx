@@ -132,7 +132,7 @@ export default function About() {
             <Image
               rounded={'md'}
               alt={'Bona Suon profile image'}
-              src={'./images/Profile.jpg'}
+              src={'/images/Profile.jpg'}
               objectFit={'cover'}
               boxShadow={'lg'}
               maxH={'500px'}
