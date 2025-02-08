@@ -12,5 +12,5 @@ export default defineConfig({
       '@': '/src',
     },
   },
-  base: '/khmerdude.github.io/',
+  base: '/',
 }) 
